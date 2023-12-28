@@ -1,14 +1,15 @@
+rootProject.name="jpastreamer-demo"
 pluginManagement {
     val quarkusPluginVersion: String by settings
     val quarkusPluginId: String by settings
     repositories {
         mavenCentral()
         gradlePluginPortal()
-        mavenLocal()
+//        mavenLocal()
     }
     plugins {
         id(quarkusPluginId) version quarkusPluginVersion
     }
 }
 
-rootProject.name="jpastreamer-demo"
+
